@@ -1,4 +1,5 @@
 import {Command, flags} from '@oclif/command'
+const restify = require('restify')
 
 export default class EmulatorSendText extends Command {
   static description = 'describe the command here'
